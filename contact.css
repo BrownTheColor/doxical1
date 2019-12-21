@@ -1,28 +1,44 @@
-* {
-    box-sizing: border-box;
   }
   
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
+  /*input[type=submit] {
+    background-color: rgb(37, 139, 255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  } */
+
+ /* button {
+    background-color: rgb(37, 139, 255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+
+  } */
+
+  a {
     background-color: rgb(37, 139, 255);
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
   }
-  
-  input[type=submit]:hover {
+
+  a :hover {
     background-color: #0004ff;
+
   }
+
+  /* }
+   button :hover {
+   background-color: #0004ff;
+
+   } */
+
+ /* input[type=submit]:hover {
+    background-color: #0004ff;
+  } */
   
   /* Style the container/contact section */
   .container {
